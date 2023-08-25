@@ -13,10 +13,36 @@ pip install nbdev_demo
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+[参见: nbdev Get Started](https://nbdev.fast.ai/tutorials/tutorial.html)
 
-``` python
-1+1
+### 初始化Repo
+
+使用如下命令初始化
+
+``` sh
+nbdev_new
 ```
 
-    2
+### 启用GitHub Pages
+
+在Settings Tabl找到 Pages, 在Branch中设置 `gh-pages`
+
+### 安装 git-friendly notebooks
+
+    nbdev_install_hooks
+
+### 导出与安装
+
+使用如下命令导出包
+
+    nbdev_export
+
+安装包
+
+    pip install -e '.[dev]'
+
+### 预览
+
+输入如下命令, 打开URL
+
+    nbdev_preview

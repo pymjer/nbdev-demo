@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://pymjer.github.io',
                 'git_url': 'https://github.com/pymjer/nbdev-demo',
                 'lib_path': 'nbdev_demo'},
-  'syms': {'nbdev_demo.core': {'nbdev_demo.core.foo': ('core.html#foo', 'nbdev_demo/core.py')}}}
+  'syms': { 'nbdev_demo.core': { 'nbdev_demo.core.foo': ('core.html#foo', 'nbdev_demo/core.py'),
+                                 'nbdev_demo.core.say_hello': ('core.html#say_hello', 'nbdev_demo/core.py')}}}
