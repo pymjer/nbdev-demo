@@ -49,8 +49,11 @@ nbdev_new
 
 ### 提交
 
-提交前先执行`nbdev_prepare`命令，这个命令会执行如下几个命令 -
-nbdev_export: Builds the .py modules from Jupyter notebooks -
-nbdev_test: Tests your notebooks - nbdev_clean: Cleans your notebooks to
-get rid of extreanous output for git - nbdev_readme: Updates your repo’s
-README.md file from your index notebook.
+提交前先执行`nbdev_prepare`命令，这个命令会执行如下几个命令
+
+- nbdev_export: Builds the .py modules from Jupyter notebooks
+- nbdev_test: Tests your notebooks
+- nbdev_clean: Cleans your notebooks to get rid of extreanous output for
+  git
+- nbdev_readme: Updates your repo’s README.md file from your index
+  notebook.
