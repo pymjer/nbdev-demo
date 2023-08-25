@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "#| hide标识代表在model和文档中都隐藏\n\nsource\n\nsay_hello\n\n say_hello (to)\n\nSay hello to some body\n\nsay_hello(\"nbdev\")\n\n'Hello nbdev'\n\n\n\nassert say_hello(\"nbdev\") == \"Hello nbdev\"\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello('nbdev'), \"Hello nbdev\")\n\n\nfrom IPython.display import display,SVG\n\n\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"50\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))\n\n\n\n\n\nsource\n\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-demo",
+    "section": "",
+    "text": "conda install -c conda-forge -y jupyterlab # nbdev 依赖jupterlab\n\nconda install -c fastai -y nbdev\n\nnbdev_install_quarto # 安装Quarto\n\npip install jupyterlab-quarto # 对jupyter的一些优化"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-demo",
+    "section": "",
+    "text": "conda install -c conda-forge -y jupyterlab # nbdev 依赖jupterlab\n\nconda install -c fastai -y nbdev\n\nnbdev_install_quarto # 安装Quarto\n\npip install jupyterlab-quarto # 对jupyter的一些优化"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-demo",
+    "section": "How to use",
+    "text": "How to use\n\n初始化Repo\n使用如下命令初始化\nnbdev_new\n\n\n启用GitHub Pages\n在Settings Tabl找到 Pages, 在Branch中设置 gh-pages\n\n\n安装 git-friendly notebooks\nnbdev_install_hooks\n\n\n导出与安装\n使用如下命令导出包\nnbdev_export\n安装包\npip install -e '.[dev]'\n\n\n预览\n输入如下命令, 打开URL\nnbdev_preview\n\n\n提交\n提交前先执行nbdev_prepare命令，这个命令会执行如下几个命令\n\nnbdev_export: Builds the .py modules from Jupyter notebooks\nnbdev_test: Tests your notebooks\nnbdev_clean: Cleans your notebooks to get rid of extreanous output for git\nnbdev_readme: Updates your repo’s README.md file from your index notebook."
+  }
+]
