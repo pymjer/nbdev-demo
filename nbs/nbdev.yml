@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-demo"
+  site-url: "https://pymjer.github.io/nbdev-demo"
+  description: "hello world with nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/pymjer/nbdev-demo"
